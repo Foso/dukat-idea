@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="bbscompanion.main" target="1.8" />
+      <module name="bbscompanion.test" target="1.8" />
+      <module name="dukatidea.main" target="1.8" />
+      <module name="dukatidea.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

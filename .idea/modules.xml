@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dukatidea.iml" filepath="$PROJECT_DIR$/.idea/modules/dukatidea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dukatidea.main.iml" filepath="$PROJECT_DIR$/.idea/modules/dukatidea.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dukatidea.test.iml" filepath="$PROJECT_DIR$/.idea/modules/dukatidea.test.iml" />
+    </modules>
+  </component>
+</project>

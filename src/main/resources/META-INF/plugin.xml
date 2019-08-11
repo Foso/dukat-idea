@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>de.jensklingenberg.dukatidea</id>
+    <name>Dukat Idea</name>
+    <vendor email="mail@jensklingenberg.de" url="http://www.jensklingenberg.de">Jens Klingenberg</vendor>
+
+    <description><![CDATA[
+    Adds a menu entry (Dukat: Generate Kotlin external declarations) to the Tools Menu and the context menu of files, to trigger Dukat to generate KotlinJS Wrapper
+
+    You still need to install Dukat(https://github.com/Kotlin/dukat)
+    The plugin works only on d.ts files
+    ]]></description>
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij"/>
+
+    <actions>
+        <action id="DukatGenerator" class="de.jensklingenberg.dukatidea.DukatIdeaAction"
+                text="Dukat: Generate Kotlin external declarations" description="Starts dukat with the selected file">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
